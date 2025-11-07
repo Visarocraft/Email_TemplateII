@@ -3,7 +3,16 @@
   width="100%"
   cellpadding="0"
   cellspacing="0"
-  style="background:#0e105b; padding:1rem 0 0; font-family:'Raleway', sans-serif; margin:0 auto;"
+  style="
+    background-color:#0e105b;
+    padding:1rem 0 0;
+    font-family:'Raleway', Arial, sans-serif;
+    margin:0 auto;
+    color:#ffffff;
+    -webkit-text-size-adjust:none;
+    -ms-text-size-adjust:none;
+    color-scheme:light only;
+  "
 >
   <tr>
     <td align="center">
@@ -43,7 +52,13 @@
                 <td
                   class="left-col"
                   valign="middle"
-                  style="vertical-align:middle; text-align:left; padding-right:1rem; width:100%; max-width:320px;"
+                  style="
+                    vertical-align:middle;
+                    text-align:left;
+                    padding-right:1rem;
+                    width:100%;
+                    max-width:320px;
+                  "
                 >
                   <h1
                     class="main-title"
@@ -79,7 +94,7 @@
                     class="hero-image"
                     src="{{imageUrl}}"
                     alt="Celebration Image"
-                    style="display:block; max-width:280px; height:auto;"
+                    style="display:block; max-width:280px; width:100%; height:auto;"
                   />
                 </td>
               </tr>
@@ -91,14 +106,94 @@
   </tr>
 </table>
 
-<!-- Responsive Styles -->
+<!-- Footer -->
+<table
+  role="presentation"
+  width="100%"
+  cellpadding="0"
+  cellspacing="0"
+  style="
+    background-color:#0e105b;
+    color:#ffffff;
+    font-family:'Raleway', Arial, sans-serif;
+    -webkit-text-size-adjust:none;
+    -ms-text-size-adjust:none;
+    color-scheme:light only;
+  "
+>
+  <tr>
+    <td align="center" style="padding:40px 16px;">
+      <table
+        role="presentation"
+        width="100%"
+        cellpadding="0"
+        cellspacing="0"
+        style="max-width:700px; width:100%;"
+      >
+        <tr>
+          <td style="font-size:14px; line-height:1.8; color:#ffffff;">
+            <p style="text-align:center; margin:0;">©2025 All Rights Reserved</p>
+            <div
+              style="border-bottom:2px solid #ffffff; width:65%; margin:20px auto;"
+            ></div>
+
+            <p style="margin:0 0 12px 0;">
+              This email was sent to you by
+              <strong>VisaroCraft Technology LLC</strong>.
+              We operate across multiple jurisdictions to provide premium U.S. immigration
+              petition and consultation services. Please refer to our
+              <span style="color:#f06022;">Terms and Conditions</span>.
+            </p>
+
+            <p style="margin:0 0 12px 0;">
+              VisaroCraft Technology LLC is a company duly registered in the
+              State of Wyoming, United States. We specialize in the preparation
+              of EB-1A, EB-2 NIW, and O-1 visa petitions.
+            </p>
+
+            <p style="margin:0;">
+              Each service engagement is governed by applicable laws, and
+              VisaroCraft remains fully responsible for services rendered.
+            </p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <!-- Social Section -->
+  <tr>
+    <td
+      align="center"
+      style="
+        background-color:#d84a05;
+        padding:20px 16px;
+        color:#ffffff;
+        font-weight:600;
+        text-align:center;
+        -webkit-text-size-adjust:none;
+        -ms-text-size-adjust:none;
+      "
+    >
+      <p style="margin:0; line-height:1.6;">
+        Follow us on
+        <a
+          href="https://www.facebook.com/Visarocraft/"
+          style="color:#ffffff; text-decoration:underline; font-weight:600; margin-left:4px;"
+        >
+          Facebook
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
+
 <style>
   @media only screen and (max-width: 620px) {
     .content-grid tr {
       display: block !important;
       width: 100% !important;
     }
-    
     .left-col,
     .right-col {
       display: block !important;
@@ -107,38 +202,31 @@
       text-align: center !important;
       padding: 0 !important;
     }
-
     .left-col {
       padding-bottom: 1.5rem !important;
     }
-
     .main-title {
       font-size: 32px !important;
       text-align: center !important;
     }
-
     .subtitle {
       font-size: 18px !important;
       text-align: center !important;
     }
-
     .cta-badge {
       margin: 0 auto !important;
       font-size: 18px !important;
       text-align: center !important;
     }
-
     .hero-image {
       margin: 0 auto !important;
       max-width: 300px !important;
       width: 100% !important;
       height: auto !important;
     }
-
     .logo-cell {
       text-align: center !important;
     }
-
     .logo-img {
       margin: 0 auto !important;
       max-width: 110px !important;
@@ -146,23 +234,24 @@
     }
   }
 
-  /* Additional mobile-first improvements */
   @media only screen and (max-width: 480px) {
     .main-title {
       font-size: 28px !important;
     }
-    
     .subtitle {
       font-size: 16px !important;
     }
-    
     .cta-badge {
       font-size: 16px !important;
       padding: 6px 12px !important;
     }
-    
     .email-container {
       padding: 0 0.5rem !important;
     }
   }
 </style>
+
+
+{{!         <a href="https://twitter.com" style="color:white; margin:0 10px; text-decoration:underline;">Twitter</a>
+        <a href="https://instagram.com" style="color:white; margin:0 10px; text-decoration:underline;">Instagram</a>
+        <a href="https://linkedin.com" style="color:white; margin:0 10px; text-decoration:underline;">LinkedIn</a> }}
