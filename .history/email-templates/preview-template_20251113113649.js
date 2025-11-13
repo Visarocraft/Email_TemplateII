@@ -67,7 +67,7 @@ const html = mainCompiled({
   logoUrl: logoDataUrl,
   imageUrl: celebrationDataUrl,
   main: "Week two success!",
-  text: "View Next steps",
+  text: "View ",
   subtitle: "Another milestone accomplished",
   // termsUrl: "https://yourdomain.com/terms",
   // privacyUrl: "https://yourdomain.com/privacy",
