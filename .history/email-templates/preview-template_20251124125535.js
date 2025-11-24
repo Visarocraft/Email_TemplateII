@@ -26,7 +26,7 @@ function imageToDataUrl(imagePath) {
 // Register partials
 handlebars.registerPartial(
   "header",
-  fs.readFileSync("./email-templates/partials/headerII.hbs", "utf-8")
+  fs.readFileSync("./email-templates/partials/header.hbs", "utf-8")
 );
 handlebars.registerPartial(
   "footer",
@@ -65,7 +65,7 @@ const mainCompiled = handlebars.compile(mainLayout);
 const html = mainCompiled({
   title: "Welcome Email",
   logoUrl: logoDataUrl,
-  imageUrl: celebrationDataUrl,
+  imageUrl: celebrationDataUrl,  
   main: "Week two success!",
   text: "View Next steps",
   subtitle: "Another milestone accomplished",

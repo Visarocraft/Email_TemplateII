@@ -25,7 +25,7 @@ function imageToDataUrl(imagePath) {
 
 // Register partials
 handlebars.registerPartial(
-  "header",
+  "headerII",
   fs.readFileSync("./email-templates/partials/headerII.hbs", "utf-8")
 );
 handlebars.registerPartial(
